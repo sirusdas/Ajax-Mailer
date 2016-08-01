@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta content="#fff" name="theme-color">
+<meta content="#fff" name="msapplication-navbutton-color">
+<meta content="#fff" name="apple-mobile-web-app-status-bar-style">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="p:domain_verify" content="1621d645d9bc4f6e99b99f463f40bbbd" />
+<title>Ajax Mailer</title>
+
+<!-- Main CSS file -->
+<link rel="stylesheet" href="css/bootstrap.min.css" />
+<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="css/ec.css" />
+<link rel="stylesheet" href="css/font-awesome.css" />
+
+</head>
+<body>
+	<!-- CONTACT -->
+	<section id="contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="section-title">
+						<h1>Contact us</h1>
+						<span class="st-border"></span>
+					</div>
+				</div>
+				<div class="col-sm-4 contact-info">
+					<!--<p class="contact-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae voluptatum dolorum, possimus tenetur pariatur officia, quo commodi autem doloribus vero rerum aspernatur quidem temporibus.</p>-->
+					<!--<p class="st-address"><i class="fa fa-map-marker"></i> <strong>E71 8th Ave, New York NY 21001, US</strong></p>-->
+					<p class="st-phone">
+						<i class="fa fa-mobile"></i> <strong>+91 8888 33 9861</strong>
+					</p>
+					<p class="st-email">
+						<i class="fa fa-envelope-o"></i> <strong>info@devchakra.com</strong>
+					</p>
+					<!--<p class="st-website"><i class="fa fa-globe"></i> <strong>www.yourdomain.com</strong></p>-->
+
+				</div>
+				<div class="col-sm-7 col-sm-offset-1">
+					<form id="idForm" action="php/ajax-contact.php"
+						class="contact-form" name="contact-form" method="post"
+						enctype="multipart/form-data">
+
+						<div class="row">
+							<div class="col-sm-6">
+								<input type="text" name="name" required="required" size="30"
+									placeholder="Name*">
+							</div>
+							<div class="col-sm-6">
+								<input type="email" name="email" required="required" size="30"
+									placeholder="Email*">
+							</div>
+							<div class="col-sm-6">
+								<input type="text" name="subject" required="required"
+									placeholder="Subject" size="30">
+							</div>
+							<div class="col-sm-6">
+								<input type="text" name="website" placeholder="Website"
+									size="30">
+							</div>
+							<div class="col-sm-12">
+								<textarea name="message" required="required" cols="30" rows="7"
+									placeholder="Message*"></textarea>
+							</div>
+							<div class="col-sm-12">
+								<input type="submit" name="action" value="Send Message"
+									class="btn btn-send">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								<span class="loader1"></span>
+								<div class="loader2"></div>
+								<span class="loader3"></span>
+								<div id="msg"></div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- /CONTACT -->
+
+	<!-- FOOTER -->
+	<footer id="footer">
+		<div class="container">
+			<div class="row">
+				<!-- SOCIAL ICONS -->
+				<div class="col-sm-6 col-sm-push-6 footer-social-icons">
+					<span>Follow us:</span> 
+					<a href="https://www.facebook.com/DevChakra-990813557622669/"><i class="fa fa-facebook"></i></a>
+					<a href="https://twitter.com/DevChakra_India"><i class="fa fa-twitter"></i></a> 
+					<a href="https://plus.google.com/109835967470027240528"><i class="fa fa-google-plus"></i></a> 
+					<a href=""><i class="fa fa-pinterest-p"></i></a>
+				</div>
+				<!-- /SOCIAL ICONS -->
+				<div class="col-sm-6 col-sm-pull-6 copyright">
+					<p>
+						&copy; 2016 <a href="">DevChakra</a>. All Rights Reserved.
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- /FOOTER -->
+
+
+
+	<!-- JS -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<!-- Nav Scripts -->
+	<script type="text/javascript" src="js/ec.js"></script>
+	<!-- Header color - block color -->
+	<!-- /OUR TEAM -->
+
+
+</body>
+</html>

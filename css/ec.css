@@ -1,0 +1,170 @@
+/**
+ * Plugin Name:   Expand Collapse Blocks
+ * Plugin URI:    http://devchakra.com/
+ * Description:   The easiest way for converting any block to Expand & Collapase Blocks
+ * Author:        Sirus Das
+ * Author URI:    http://devchakra.com
+ * Version:       0.0.1
+ * Text Domain:   ec-block
+ *
+ * GitHub Plugin URI: https://github.com/sirusdas/Expand-Collapse-Blocks
+ *
+ * @package     ec-block
+ * @category    Core
+ * @author      Sirus Das
+ * @copyright   Copyright (c) 2016, Sirus Das
+ * @license     GNU GENERAL PUBLIC LICENSE
+ * @since       1.0
+ */  
+sh{
+        display: none;
+        
+        
+}
+.sh0{
+    float: right;
+    position: relative;
+    cursor:pointer;
+	
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 1px 0 rgba(245, 245, 245, 0.5) inset, 0 -5px 30px rgba(245, 245, 245, 0.25) inset, 0 1px 1px rgba(0, 0, 0, 0.3);
+    color: #333;
+    display: inline-block;
+    line-height: 1em;
+    margin: 0;
+    padding: 6px 15px;
+    text-align: center;
+    text-decoration: none;	
+}
+
+.sh2{
+    float: right;
+    position: relative;
+    top: -45px;
+    cursor:pointer;
+	
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 1px 0 rgba(245, 245, 245, 0.5) inset, 0 -5px 30px rgba(245, 245, 245, 0.25) inset, 0 1px 1px rgba(0, 0, 0, 0.3);
+    color: #333;
+    display: inline-block;
+    line-height: 1em;
+    margin: 0;
+    padding: 6px 15px;
+    text-align: center;
+    text-decoration: none;	
+}
+
+.sh1{
+    float: right;
+    position: relative;
+    top: -49px;
+    cursor:pointer;
+	
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 1px 0 rgba(245, 245, 245, 0.5) inset, 0 -5px 30px rgba(245, 245, 245, 0.25) inset, 0 1px 1px rgba(0, 0, 0, 0.3);
+    color: #333;
+    display: inline-block;
+    line-height: 1em;
+    margin: 0;
+    padding: 6px 15px;
+    text-align: center;
+    text-decoration: none;	
+}
+
+.sh3{
+    float: right;
+    position: relative;
+    top: -42px;
+    cursor:pointer;
+	
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 1px 0 rgba(245, 245, 245, 0.5) inset, 0 -5px 30px rgba(245, 245, 245, 0.25) inset, 0 1px 1px rgba(0, 0, 0, 0.3);
+    color: #333;
+    display: inline-block;
+    line-height: 1em;
+    margin: 0;
+    padding: 6px 15px;
+    text-align: center;
+    text-decoration: none;	
+}
+
+.sh4{
+    float: right;
+    position: relative;
+    top: -35px;
+    cursor:pointer;
+	
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 1px 0 rgba(245, 245, 245, 0.5) inset, 0 -5px 30px rgba(245, 245, 245, 0.25) inset, 0 1px 1px rgba(0, 0, 0, 0.3);
+    color: #333;
+    display: inline-block;
+    line-height: 1em;
+    margin: 0;
+    padding: 6px 15px;
+    text-align: center;
+    text-decoration: none;	
+}
+
+.sh5{
+    float: right;
+    position: relative;
+    top: -32px;
+    cursor:pointer;
+	
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 1px 0 rgba(245, 245, 245, 0.5) inset, 0 -5px 30px rgba(245, 245, 245, 0.25) inset, 0 1px 1px rgba(0, 0, 0, 0.3);
+    color: #333;
+    display: inline-block;
+    line-height: 1em;
+    margin: 0;
+    padding: 6px 15px;
+    text-align: center;
+    text-decoration: none;	
+}
+
+.sh6{
+    float: right;
+    position: relative;
+    top: -32px;
+    cursor:pointer;
+	
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 1px 0 rgba(245, 245, 245, 0.5) inset, 0 -5px 30px rgba(245, 245, 245, 0.25) inset, 0 1px 1px rgba(0, 0, 0, 0.3);
+    color: #333;
+    display: inline-block;
+    line-height: 1em;
+    margin: 0;
+    padding: 6px 15px;
+    text-align: center;
+    text-decoration: none;	
+}
+
+/*Block Css */
+.wpe-box-note {
+
+}
+.shb {
+	background: #fff none repeat scroll 0 0;
+    border: 1px solid #eee;
+    box-sizing: border-box;
+    display: block;
+    margin: 0 auto 25px;
+    padding: 6px 9px;
+    width: 100%;
+}
+
+
